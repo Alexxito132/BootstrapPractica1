@@ -54,18 +54,145 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal Usuario</h1>
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Agregar Usuario</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>-Alexxito</p>
-                    <p>-Jaime Alejandro Rodriguez Reyes</p>
-                    <p>-ADMIN, VENTANA</p>
+                    <label class="form-label" for="inputNickname">Nickname</label>
+                    <input class="form-control" type="text" id="inputNickname"></label>
+                    <label class="form-label" for="inputNombre">Nombre</label>
+                    <input class="form-control" type="text" id="inputNombre"></label>
+                    <label class="form-label" for="inputRol">Rol</label>
+                    <select class="form-select">
+                        <option>ADMIN, VENTAS</option>
+                        <option>ADMIN, VENTANA</option>
+                        <option>ADMIN, INVENTARIO</option>
+                        <option>MODERADOR, VENTAS</option>
+                        <option>MODERADOR, VENTANA</option>
+                        <option>MODERADOR, INVENTARIO</option>
+                        <option>SUPERVISOR, VENTAS</option>
+                        <option>SUPERVISOR, VENTANA</option>
+                        <option>SUPERVISOR, INVENTARIO</option>
+                    </select>
                 </div>
+
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                     <button type="button" class="btn btn-primary">Guardar</button>
                 </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal1 -->
+    <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Editar Usuario</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <label class="form-label" for="inputNickname">Nickname</label>
+                    <input class="form-control" type="text" id="inputNickname" value="Alexxito"></label>
+                    <label class="form-label" for="inputNombre">Nombre</label>
+                    <input class="form-control" type="text" id="inputNombre" value="Jaime Alejandro Rodríguez Reyes"></label>
+                    <label class="form-label" for="inputRol">Rol</label>
+                    <select class="form-select">
+                        <option selected>ADMIN, VENTAS</option>
+                        <option>ADMIN, VENTANA</option>
+                        <option>ADMIN, INVENTARIO</option>
+                        <option>MODERADOR, VENTAS</option>
+                        <option>MODERADOR, VENTANA</option>
+                        <option>MODERADOR, INVENTARIO</option>
+                        <option>SUPERVISOR, VENTAS</option>
+                        <option>SUPERVISOR, VENTANA</option>
+                        <option>SUPERVISOR, INVENTARIO</option>
+                    </select>
+                </div>
+                
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Guardar</button>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+       <!-- Modal2 -->
+    <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Editar Usuario</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <label class="form-label" for="inputNickname">Nickname</label>
+                    <input class="form-control" type="text" id="inputNickname" value="DamDams">
+                    <label class="form-label" for="inputNombre">Nombre</label>
+                    <input class="form-control" type="text" id="inputNombre" value="Gael Damian Hernández Carranza"></label>
+                    <label class="form-label" for="inputRol">Rol</label>
+                    <select class="form-select">
+                        <option>ADMIN, VENTAS</option>
+                        <option>ADMIN, VENTANA</option>
+                        <option>ADMIN, INVENTARIO</option>
+                        <option>MODERADOR, VENTAS</option>
+                        <option>MODERADOR, VENTANA</option>
+                        <option>MODERADOR, INVENTARIO</option>
+                        <option>SUPERVISOR, VENTAS</option>
+                        <option>SUPERVISOR, VENTANA</option>
+                        <option selected>SUPERVISOR, INVENTARIO</option>
+                    </select>
+                </div>
+                
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Guardar</button>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+       <!-- Modal3 -->
+    <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Editar Usuario</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <label class="form-label" for="inputNickname">Nickname</label>
+                    <input class="form-control" type="text" id="inputNickname" value="Vecknitron"></label>
+                    <label class="form-label" for="inputNombre">Nombre</label>
+                    <input class="form-control" type="text" id="inputNombre" value="Victor Manuel Arizmendi Salgado"></label>
+                    <label class="form-label" for="inputRol">Rol</label>
+                    <select class="form-select">
+                        <option>ADMIN, VENTAS</option>
+                        <option>ADMIN, VENTANA</option>
+                        <option>ADMIN, INVENTARIO</option>
+                        <option selected>MODERADOR, VENTAS</option>
+                        <option>MODERADOR, VENTANA</option>
+                        <option>MODERADOR, INVENTARIO</option>
+                        <option>SUPERVISOR, VENTAS</option>
+                        <option>SUPERVISOR, VENTANA</option>
+                        <option>SUPERVISOR, INVENTARIO</option>
+                    </select>
+                </div>
+                
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Guardar</button>
+                </div>
+
+
             </div>
         </div>
     </div>
@@ -117,7 +244,7 @@
                             </div>
                         </td>
                         <td>
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalEditar">
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal1">
                                 Editar
                                 <i class="bi bi-pencil"></i> 
                             </button>
@@ -137,7 +264,7 @@
                             </div>
                         </td>
                         <td>
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalEditar">
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal2">
                                 Editar
                                 <i class="bi bi-pencil"></i> 
                             </button>
@@ -157,7 +284,7 @@
                             </div>
                         </td>
                         <td>
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalEditar">
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal3">
                                 Editar
                                 <i class="bi bi-pencil"></i> 
                             </button>
